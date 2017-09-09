@@ -1,0 +1,11 @@
+f<-function(s){
+  for(i in 2:s)
+  {
+    b<- i*(i+1)/2
+    a<- i*(i-1)/2+1
+    if(a<=s & s<=b)
+    {return(i)} 
+  }
+}
+f(10)
+
